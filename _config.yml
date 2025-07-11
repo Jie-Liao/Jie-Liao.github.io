@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
 
   name             : "Jie Liao"
-  pronouns         : "she/her"  
+  pronouns         : #"she/her"  
   bio              : "Economics PhD Student"
   location         : #"U.S."
   employer         : "UC San Diego"
