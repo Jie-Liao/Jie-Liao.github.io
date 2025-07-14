@@ -5,15 +5,51 @@ permalink: /research/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-{% for post in site.research reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<div class="research">
+  <!-- Working Papers -->
+  <h2>Working Papers</h2>
+  {% for post in site.research reversed %}
+    {% if post.type == 'working' %}
+      {% include archive-single.html %}
+    {% endif %}
+  {% endfor %}
+
+  <!-- Publications -->
+  <h2>Publications</h2>
+  {% for post in site.research reversed %}
+    {% if post.type == 'publication' %}
+      {% include archive-single.html %}
+    {% endif %}
+  {% endfor %}
+
+  <!-- Work in Progress -->
+  <h2>Work in Progress</h2>
+  {% for post in site.research reversed %}
+    {% if post.type == 'progress' %}
+      {% include archive-single.html %}
+    {% endif %}
+  {% endfor %}
+</div>
+
+<!-- Add some custom styling -->
+<style>
+.research h2 {
+  color: #2a2a2a;
+  border-bottom: 1px solid #f2f3f3;
+  padding-bottom: 10px;
+  margin-top: 40px;
+}
+
+.research .archive__item-title {
+  margin-top: 20px;
+}
+
+.research .archive__item-excerpt {
+  margin-top: 10px;
+}
+</style>
 
 
 
