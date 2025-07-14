@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : #"UC San Diego"
 site_theme               : "default"
-title                    : "Jie Liao / Site Title"
+title                    : "Jie Liao"
 title_separator          : "-"
 name                     : &name "Jie Liao"
 description              : &description "personal description"
