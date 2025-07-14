@@ -12,20 +12,7 @@ paperurl: '/files/research/papers/combining-forecasts.pdf'  # Optional: link to 
 # abstract: 'This is an example abstract. Write a brief summary of your research paper here. The abstract should be concise but informative, highlighting the main research question, methodology, and key findings.'
 ---
 
-### Overview
-Brief description of your paper and its contributions.
-
-### Research Question
-What questions does this paper address?
-
-### Methodology
-Brief description of your approach and methods.
-
-### Key Findings
-Highlight the main results and implications.
-
-### Additional Information
-- **Status**: Under Review at Journal Name
-- **Presentations**: Conference Name (Date), Workshop Name (Date)
-- **Awards**: Any awards or recognition
-- **Media Coverage**: Links to media coverage or press releases 
+**Status**: Under Review at Journal Name  
+**Presentations**: Conference Name (Date), Workshop Name (Date)  
+**Awards**: Any awards or recognition  
+**Media Coverage**: Links to media coverage or press releases 
