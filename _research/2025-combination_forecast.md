@@ -4,7 +4,7 @@ Optimal Linear Weights"
 type: working  # Options: working, publication, progress
 collection: research
 permalink: /research/2025-combination-forecast
-date: 2025-06-08
+# date: 2025-06-08
 venue: 'Working Paper'  # Can be journal name, conference, or working paper
 paperurl: '/files/research/papers/combining-forecasts.pdf'  # Optional: link to your paper
 #code: 'https://github.com/yourusername/project'  # Optional: link to code
