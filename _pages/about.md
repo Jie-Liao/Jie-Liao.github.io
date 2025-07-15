@@ -1,9 +1,11 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+Hi! I’m Jie Liao, an incoming Ph.D. student in Economics at the University of California, San Diego. My research interests lie in econometrics.
 
