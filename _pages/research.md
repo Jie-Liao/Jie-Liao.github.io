@@ -5,19 +5,9 @@ permalink: /research/
 author_profile: true
 ---
 
-<!-- Debug: Check if research collection exists -->
-<p>Total research items: {{ site.research.size }}</p>
-{% for item in site.research %}
-  <p>Found: {{ item.title }} (type: {{ item.type }})</p>
-{% endfor %}
-
 {% assign working_papers = site.research | where: "type", "working" %}
 {% assign publications = site.research | where: "type", "publication" %}
 {% assign work_in_progress = site.research | where: "type", "progress" %}
-
-<p>Working papers: {{ working_papers.size }}</p>
-<p>Publications: {{ publications.size }}</p>
-<p>Work in progress: {{ work_in_progress.size }}</p>
 
 {% if working_papers.size > 0 %}
 ## Working Papers
