@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : #"UC San Diego"
 site_theme               : "default"
-title                    : "Jie Liao"
+title                    : "Homepage"
 title_separator          : "-"
 name                     : &name "Jie Liao"
 description              : &description "personal description"
@@ -29,7 +29,7 @@ author:
   location         : #"Earth"
   employer         : "UC San Diego"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : #"none@example.org" 
 
   # Academic websites
   academia         : # URL
